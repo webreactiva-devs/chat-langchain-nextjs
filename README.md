@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ChatLangChain con Next.js
 
-## Getting Started
+ChatLangChain es una aplicación de chat construida con Next.js que utiliza la librería LangChain para interactuar con un modelo de lenguaje grande (LLM) proporcionado por OpenAI y VectorStore para almacenar la base de datos vectorial.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+[Masterclass en Web Reactiva](https://www.webreactiva.com/cursos/masterclass/como-crear-aplicaciones-con-inteligencia-artificial-con-langchain-y-openai)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/webreactiva-devs/chat-langchain-demos/assets/1122071/ae2ec61f-2f6b-42b2-8b2e-584f703f9b93)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Características principales
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **LangChain:** Esta biblioteca es utilizada para interactuar con el modelo de lenguaje grande (LLM). Permite la creación y gestión de cadenas de comandos (chains) para el LLM, facilitando la integración y la creación de aplicaciones más complejas.
 
-## Learn More
+- **OpenAI:** Se utiliza como el proveedor del modelo de lenguaje grande (LLM). OpenAI ha sido líder en la creación de modelos de lenguaje avanzados, permitiendo una interacción y generación de texto más natural y coherente.
 
-To learn more about Next.js, take a look at the following resources:
+- **VectorStore:** Se utiliza para almacenar la base de datos vectorial. VectorStore proporciona una forma eficiente y rápida de almacenar y recuperar vectores, que son una parte esencial de la manipulación y el procesamiento de los datos en las aplicaciones de IA.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js:** Es un marco de JavaScript para la construcción de aplicaciones web de alto rendimiento y optimizadas para la SEO. Se utiliza para crear la interfaz de usuario de la aplicación de chat, proporcionando una experiencia de usuario fluida y agradable.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Cómo iniciar
 
-## Deploy on Vercel
+Para ejecutar esta aplicación, necesitarás tener instalado Node.js en tu máquina.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clona este repositorio en tu máquina local utilizando `https://github.com/webreactiva-devs/chat-langchain-nextjs.git`.
+2. Navega al directorio del proyecto en tu terminal.
+3. Instala las dependencias del proyecto utilizando `npm install` o `yarn`.
+4. Inicia la aplicación en modo de desarrollo utilizando `npm run dev` o `yarn dev`.
+5. Abre tu navegador web y visita `http://localhost:3000` para ver la aplicación en acción.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contribuciones
+
+Las contribuciones a este proyecto son bienvenidas. Para contribuir, por favor:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tu característica.
+3. Implementa tu nueva característica o mejora.
+4. Haz un pull request a la rama principal del repositorio.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Para más información, consulta el archivo `LICENSE` en este repositorio.
+
+Si tienes alguna pregunta o sugerencia, por favor, no dudes en abrir un issue en este repositorio.
+
+## Créditos
+
+Este proyecto ha sido creado y mantenido por [WebReactiva Devs](https://github.com/webreactiva-devs).
