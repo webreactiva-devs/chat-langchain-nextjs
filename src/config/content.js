@@ -6,7 +6,7 @@ export default {
     "¿Qué sabes sobre React? o ¿Qué puedes contarme de Arquitectura de Software?",
   placeholderChat2: "Quiero recursos sobre...",
   siteSlogan:
-    "Buscador powerizado por la IA de GPT y el contenido del podcast Web Reactiva y la newsletter Reactivísima",
+    "Buscador potenciado por la IA de GPT y el contenido del podcast Web Reactiva y la newsletter Reactivísima",
   loadingText: "Circuitos cerebrales calculando respuesta ...",
   loadingText2: "Circuitos cerebrales conectando nainonaaa...",
   chatResponseTitle: "Robotito dice:",
